@@ -1,0 +1,19 @@
+name: presidentielle
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10.6
+  - jupyter
+  - ipython
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - matplotlib
+      - seaborn
+      - scipy
+      - tensorflow
+      - scikit-learn
+      - openpyxl
+      - statsmodels
