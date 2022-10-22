@@ -1,0 +1,32 @@
+{
+    "id": [
+        "CodeDepartement",
+        "NomDepartement",
+        "CodeCirconscription",
+        "NomCirconscription",
+        "CodeCommune",
+        "NomCommune",
+        "CodeBureauVote",
+        "Inscrits"
+    ],
+    "choices1": [
+        "No_One",
+        "Arthaud",
+        "Roussel",
+        "Macron",
+        "Lassalle",
+        "Le_Pen",
+        "Zemmour",
+        "Melenchon",
+        "Hidalgo",
+        "Jadot",
+        "Pecresse",
+        "Poutou",
+        "Dupont_Aignan"
+    ],
+    "choices2": [
+        "No_One",
+        "Macron",
+        "Le_Pen"
+    ]
+}

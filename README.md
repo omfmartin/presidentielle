@@ -10,7 +10,11 @@ Jupyter notebooks are in `./notebooks/`.
 
 Presents the data and performs some EDA.
 
-#### predicting_t1_to_t2.ipynb
+#### model_selection.ipynb
+
+Selecting neural network architecture using cross-validation.
+
+#### predict_2nd_from_1st_round.ipynb
 
 Predicts second-round results from first-round results using a neural network.
 
@@ -21,6 +25,7 @@ Before running Jupyter notebooks, please run these two functions to install pack
 ```
 conda env create
 python ./scripts/prepare_results.py
+python ./scripts/fit_models.py
 ```
 
  ## Data Source
