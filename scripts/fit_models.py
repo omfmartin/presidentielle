@@ -14,8 +14,8 @@ del data
 model = create_model(
     input_shape=prop1.shape[1],
     output_shape=prop2.shape[1],
-    hidden_shape=20,
-    hidden_n_layers=3,
+    hidden_shape=30,
+    hidden_n_layers=2,
     batch_norm=False)
     
 history = model.fit(
